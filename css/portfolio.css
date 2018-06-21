@@ -381,6 +381,9 @@ form {
 		padding-top: 22rem;
 		height: 2000px;
 	}
+	.videocontainer {
+		display: none;
+	}
 }
 @media screen and (max-width: 700px) {
 	.about {
