@@ -1,429 +1,423 @@
-html,
-body {
-    width: 100%;
-    height: 100%;
-    font-family: 'Exo';
-    font-size: 16px;
-    text-align: center;
+html, body {
+	width: 100%;
+	height: 100%;
+	font-family: 'Exo';
+	font-size: 16px;
+	text-align: center;
 }
-
 body {
-    overflow-x: hidden;
+	overflow-x: hidden;
 }
-
 /*NavBar*/
 
 #logo {
-    width: 70px;
-    height: 65px;
-    padding-top: 14px;
+	width: 70px;
+	height: 65px;
+	padding-top: 14px;
 }
-
 .navbar_content {
-    display: flex;
-    flex-wrap: wrap;
-    text-align: center;
-    width: 100%;
-    overflow: hidden;
-    height: 80px;
+	display: flex;
+	flex-wrap: wrap;
+	text-align: center;
+	width: 100%;
+	overflow: hidden;
+	height: 80px;
 }
-
 #navbar {
-    background-color: white;
-    border-bottom: 1.5px solid #EAEAEA;
-    width: 100%;
-    position: fixed;
-    top: -150px;
-    z-index: 4;
+	background-color: white;
+	border-bottom: 1.5px solid #EAEAEA;
+	width: 100%;
+	position: fixed;
+	top: -150px;
+	z-index: 4;
 }
-
 .logo_box {
-    width: 40%;
+	width: 40%;
 }
-
 .navbar_links_box {
-    width: 60%;
-    padding-top: 27px;
-    text-align: center;
+	width: 60%;
+	padding-top: 27px;
+	text-align: center;
 }
-
 .navbar_links_container {
-    padding: 25px;
-    text-align: center;
+	padding: 25px;
+	text-align: center;
 }
-
 .navbar_links_container:hover {
-    color: white;
-    background-color: #00AEEF;
-    padding: 0.5rem 1.5rem;
-    letter-spacing: 1px;
-    border-radius: 0.25rem;
-    box-shadow: 5px 5px 25px 0 rgba(46, 61, 73, .28);
+	color: white;
+	background-color: #00AEEF;
+	padding: 0.5rem 1.5rem;
+	letter-spacing: 1px;
+	border-radius: 0.25rem;
+	box-shadow: 5px 5px 25px 0 rgba(46, 61, 73, .28);
 }
-
 .navbar_links:hover {
-    color: white;
+	color: white;
 }
-
 /* Home */
 
 .hero_image {
-    background-image: linear-gradient(to right, rgba(18, 238, 110, 0.6), rgba(14, 154, 209, 0.9)), url('../img/main.jpg');
-    height: 100%;
-    background-position: top;
-    background-size: cover;
-    z-index: -1;
+	background-image: linear-gradient(to right, rgba(18, 238, 110, 0.6), rgba(14, 154, 209, 0.9)), url('../img/main.jpg');
+	height: 100%;
+	background-position: top;
+	background-size: cover;
+	z-index: -1;
 }
-
 .hero_text {
-    position: absolute;
-    top: 43%;
-    left: 50%;
-    transform: translate(-50%, -40%);
-    color: beige;
-    text-transform: uppercase;
+	position: absolute;
+	top: 43%;
+	left: 50%;
+	transform: translate(-50%, -40%);
+	color: beige;
+	text-transform: uppercase;
 }
-
 #know_more_button {
-    padding-top: 20px;
-    padding-bottom: 20px;
-    padding-right: 35px;
-    padding-left: 35px;
-    color: beige;
-    background: transparent;
-    border: 1px solid white;
-    cursor: pointer;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-right: 35px;
+	padding-left: 35px;
+	color: beige;
+	background: transparent;
+	border: 1px solid white;
+	cursor: pointer;
 }
-
 .main_text1 {
-    display: flex;
-    flex-direction: column;
-    font-size: 43px;
+	display: flex;
+	flex-direction: column;
+	font-size: 43px;
 }
-
 .main_text2 {
-    display: flex;
-    flex-direction: column;
-    font-size: 31px;
+	display: flex;
+	flex-direction: column;
+	font-size: 31px;
 }
-
 /*About*/
 
 .description {
-    margin-left: 25%;
-    width: 50%;
+	margin-left: 25%;
+	width: 50%;
 }
-
 #about {
-    padding-top: 70px;
+	padding-top: 70px;
 }
-
 .skills_container {
-    width: 80%;
-    margin-left: 5%;
-    background-color: rgb(207, 207, 200);
+	width: 80%;
+	margin-left: 5%;
+	background-color: rgb(207, 207, 200);
 }
-
 .skills {
-    text-align: right;
-    padding-right: 18px;
-    line-height: 40px;
-    color: white;
+	text-align: right;
+	padding-right: 18px;
+	line-height: 40px;
+	color: white;
 }
-
 .html {
-    width: 95%;
-    background-color: rgb(69, 196, 238);
-    animation: slide-in-html 4s;
+	width: 95%;
+	background-color: rgb(69, 196, 238);
+	animation: slide-in-html 4s;
 }
-
 .css {
-    width: 85%;
-    background-color: rgb(16, 236, 16);
-    animation: slide-in-css 4s
+	width: 85%;
+	background-color: rgb(16, 236, 16);
+	animation: slide-in-css 4s
 }
-
 .js {
-    width: 82%;
-    background-color: rgb(43, 40, 40);
-    animation: slide-in-js 4s
+	width: 82%;
+	background-color: rgb(43, 40, 40);
+	animation: slide-in-js 4s
 }
-
 .php {
-    width: 75%;
-    background-color: rgb(238, 63, 63);
-    animation: slide-in-php 4s
+	width: 75%;
+	background-color: rgb(238, 63, 63);
+	animation: slide-in-php 4s
 }
-
 @keyframes slide-in-html {
-    from {
-        width: 0%;
-    }
-    to {
-        width: 95%;
-    }
+	from {
+		width: 0%;
+	}
+	to {
+		width: 95%;
+	}
 }
-
 @keyframes slide-in-css {
-    from {
-        width: 0%;
-    }
-    to {
-        width: 85%;
-    }
+	from {
+		width: 0%;
+	}
+	to {
+		width: 85%;
+	}
 }
-
 @keyframes slide-in-js {
-    from {
-        width: 0%;
-    }
-    to {
-        width: 82%;
-    }
+	from {
+		width: 0%;
+	}
+	to {
+		width: 82%;
+	}
 }
-
 @keyframes slide-in-php {
-    from {
-        width: 0%;
-    }
-    to {
-        width: 75%;
-    }
+	from {
+		width: 0%;
+	}
+	to {
+		width: 75%;
+	}
 }
-
 #myimage {
-    object-fit: fill;
+	object-fit: fill;
 }
-
 .about {
-    display: flex;
-    flex-wrap: wrap;
+	display: flex;
+	flex-wrap: wrap;
 }
-
-.percent,
-.name {
-    width: 50%;
+.percent, .name {
+	width: 50%;
 }
-
 #myimage {
-    width: 260px;
-    height: 250px;
-    border-radius: 300px;
+	width: 260px;
+	height: 250px;
+	border-radius: 300px;
 }
-
 /*Projects*/
 
 #projects {
-    padding-top: 70px;
+	padding-top: 70px;
 }
-
 .project_content {
-    text-transform: uppercase;
-    font-weight: 700;
-    width: 33%;
-    text-align: center;
+	text-transform: uppercase;
+	font-weight: 700;
+	width: 33%;
+	text-align: center;
 }
-
 .projects {
-    display: flex;
-    flex-wrap: wrap;
+	display: flex;
+	flex-wrap: wrap;
 }
-
 .projects_child_div {
-    padding: 60px;
+	padding: 60px;
 }
-
 .project_image {
-    height: 100%;
-    width: 100%;
-    min-width: 100px;
-    margin-left: -5px;
-    cursor: pointer;
-    box-shadow: 1px 2px 30px 10px grey;
+	height: 100%;
+	width: 100%;
+	min-width: 100px;
+	margin-left: -5px;
+	cursor: pointer;
+	box-shadow: 1px 2px 30px 10px grey;
 }
-
 .project_image:hover {
-    transform: scale(1.1);
+	transform: scale(1.1);
 }
-
 /*Contact*/
 
 .contact {
-    clip-path: polygon(0% 10%, 100% 0%, 100% 100%, 0% 100%);
-    padding-top: 15vh;
-    background-color: black;
-    color: #fff;
-    justify-content: center;
+	clip-path: polygon(0% 10%, 100% 0%, 100% 100%, 0% 100%);
+	padding-top: 15vh;
+	background-color: black;
+	color: #fff;
+	justify-content: center;
 }
-
 .button_div {
-    margin-bottom: 0;
+	margin-bottom: 0;
 }
-
 .input_c {
-    color: white;
+	color: white;
 }
-
 #submit {
-    padding-right: 20px;
-    padding-left: 20px;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    border: none;
-    background-color: #00AEEF;
-    border-radius: 20px;
-    cursor: pointer;
-    margin-bottom: 50px;
+	padding-right: 20px;
+	padding-left: 20px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	border: none;
+	background-color: #00AEEF;
+	border-radius: 20px;
+	cursor: pointer;
+	margin-bottom: 50px;
 }
-
 form {
-    margin-left: 32%;
-    width: 60%;
+	margin-left: 32%;
+	width: 60%;
 }
-
 /*Footer*/
 
 .footer {
-    position: relative;
-    display: flex;
-    flex-wrap: wrap;
-    width: 100%;
-    height: 300px;
-    background-color: rgb(86, 88, 88);
-    justify-content: center;
-    color: white;
+	position: relative;
+	display: flex;
+	flex-wrap: wrap;
+	width: 100%;
+	height: 300px;
+	background-color: rgb(86, 88, 88);
+	justify-content: center;
+	color: white;
 }
-
 .footeralign {
-    position: absolute;
-    top: 40%;
-    width: 50%;
-    display: flex;
-    flex-wrap: wrap;
-    text-align: center;
-    padding-top: 45px;
+	position: absolute;
+	top: 40%;
+	width: 50%;
+	display: flex;
+	flex-wrap: wrap;
+	text-align: center;
+	padding-top: 45px;
 }
-
 .footer_content {
-    width: 25%;
-    min-width: 70px;
+	width: 25%;
+	min-width: 70px;
 }
-
 .footer_image {
-    width: 70px;
-    height: 65px;
+	width: 70px;
+	height: 65px;
 }
-
 .footer_text {
-    margin-bottom: 50px;
+	margin-bottom: 50px;
 }
-
 .footer_image:hover {
-    transform: scale(1.1);
+	transform: scale(1.1);
 }
-
 /*arrow*/
 
 #arrow {
-    display: none;
-    position: fixed;
-    top: 85%;
-    left: 90%;
-    z-index: 10;
+	display: none;
+	position: fixed;
+	top: 85%;
+	left: 90%;
+	z-index: 10;
 }
-
+.testimonials_img {
+	width: 200px;
+	height: 200px;
+	border-radius: 200px;
+}
+.testimonials_img:hover {
+	transform: scale(1.1);
+	cursor: pointer;
+}
+.testimonials-img {
+	min-width: 150px;
+}
+.testimonials {
+	position: relative;
+	color: beige;
+	text-transform: uppercase;
+	background-image: linear-gradient(to right bottom, rgba(18, 238, 110, 0.6), rgba(14, 154, 209, 0.9));
+	background-size: cover;
+	padding-top: 144px;
+	margin-top: 15%;
+	clip-path: polygon(0% 20%, 120% 0%, 100% 82%, 0% 100%);
+	height: 800px;
+	z-index: 3;
+}
+.testimonials-img-div div {
+	padding: 50px;
+}
+.testimonials-img-div {
+	display: flex;
+	flex-wrap: wrap;
+	position: absolute;
+	justify-content: center;
+	text-align: center;
+	width: 100%;
+}
+.testimonials-img {
+	width: 100%;
+}
+.videocontainer {
+	clip-path: polygon(0% 10%, 100% 0%, 100% 100%, 0% 100%);
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	top: 0;
+	opacity: 0.5;
+	z-index: -3;
+}
+.video {
+	object-fit: cover;
+	height: 100%;
+	width: 100%;
+}
 /*media queries*/
 
 @media screen and (max-width: 449px) {
-    form {
-        margin-left: 25%;
-        width: 70%;
-    }
-    .button {
-        margin-left: 30%;
-    }
+	form {
+		margin-left: 25%;
+		width: 70%;
+	}
+	.button {
+		margin-left: 30%;
+	}
 }
-
 @media screen and (max-width: 300px) {
-    form {
-        margin-left: 25%;
-        width: 70%;
-    }
-    .button {
-        margin-left: 30%;
-    }
+	form {
+		margin-left: 25%;
+		width: 70%;
+	}
+	.button {
+		margin-left: 30%;
+	}
 }
-
 @media screen and (max-width: 600px) {
-    .navbar_links {
-        display: none;
-    }
-    .logo_box {
-        width: 100%;
-        margin-left: 30%;
-    }
+	.navbar_links {
+		display: none;
+	}
+	.logo_box {
+		width: 100%;
+		margin-left: 30%;
+	}
 }
-
 @media screen and (min-width: 800px) {
-    .testimonials-img-div {
-        display: flex;
-        justify-content: space-between;
-        flex-wrap: wrap;
-    }
-    .testimonials-img {
-        width: 33%;
-    }
-    #arrow {
-        display: flex;
-        flex-direction: column;
-    }
+	.testimonials-img-div {
+		display: flex;
+		justify-content: space-between;
+		flex-wrap: wrap;
+	}
+	.testimonials-img {
+		width: 33%;
+	}
+	#arrow {
+		display: flex;
+		flex-direction: column;
+	}
 }
-
 @media screen and (max-width: 799px) {
-    .testimonials {
-        padding-top: 22rem;
-        height: 2000px;
-    }
+	.testimonials {
+		padding-top: 22rem;
+		height: 2000px;
+	}
 }
-
 @media screen and (max-width: 700px) {
-    .about {
-        display: flex;
-        width: 100%;
-        flex-direction: column;
-    }
-    .percent,
-    .name {
-        width: 100%;
-    }
-    .navbar_links {
-        display: none;
-    }
-    .logo_box {
-        width: 100%;
-        margin-left: 10%;
-    }
-    .projects {
-        display: flex;
-        width: 100%;
-        flex-direction: column;
-    }
-    .project_content {
-        width: 100%;
-    }
+	.about {
+		display: flex;
+		width: 100%;
+		flex-direction: column;
+	}
+	.percent, .name {
+		width: 100%;
+	}
+	.navbar_links {
+		display: none;
+	}
+	.logo_box {
+		width: 100%;
+		margin-left: 10%;
+	}
+	.projects {
+		display: flex;
+		width: 100%;
+		flex-direction: column;
+	}
+	.project_content {
+		width: 100%;
+	}
 }
-
 @media screen and (max-width: 550px) {
-    .footer {
-        display: flex;
-        width: 100%;
-        flex-direction: column;
-        margin-top: -50px;
-    }
-    .footeralign {
-        width: 100%;
-    }
-    .testimonials-head h2 {
-        font-size: 40px;
-    }
+	.footer {
+		display: flex;
+		width: 100%;
+		flex-direction: column;
+		margin-top: -50px;
+	}
+	.footeralign {
+		width: 100%;
+	}
+	.testimonials-head h2 {
+		font-size: 40px;
+	}
 }
