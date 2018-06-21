@@ -52,7 +52,7 @@ $("#logo").click(function () {
     }, 1000);
 });
 
-$("#know_more").click(function () {
+$("#know_more_button").click(function () {
     $('html, body').animate({
         scrollTop: $("#about").offset().top
     }, 1000);

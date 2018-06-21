@@ -4,6 +4,7 @@ html,body
     height: 100%;
     font-family: 'Exo';font-size: 16px;
     text-align: center;
+    min-width: 150px;
 }
 
 body
@@ -13,20 +14,21 @@ body
 
 /*NavBar*/
 
-.first img
+#logo
 {
     width: 70px;
     height: 65px;
     padding-top: 14px;
 }
 
-.navbar_c
+.navbar_content
 {
     display: flex;
     flex-wrap: wrap;
     text-align: center;
     width: 100%;
     overflow: hidden;
+    height: 80px;
 }
 
 #navbar
@@ -35,14 +37,14 @@ body
     border-bottom: 1.5px solid #EAEAEA;
     width: 100%;
     position: fixed;
-    top: -80px;
+    top: -150px;
     z-index: 4;
 }
-.first
+.logo_box
 {
     width: 40%;
 }
-.second
+.navbar_links_box
 {
     width: 60%;
     padding-top:27px;
@@ -50,14 +52,14 @@ body
     
 }
 
-.second span
+.navbar_links_container
 {
     padding: 25px;
     text-align: center;
    
 }
 
-.second span:hover
+.navbar_links_container:hover
 {
     
     color: white;
@@ -71,14 +73,14 @@ letter-spacing: 1px;
     
 }
 
-.second span a:hover
+.navbar_links:hover
 {
     color: white;
 }
 
 /* Home */
 
-.hero
+.hero_image
 {
     background-image: linear-gradient(to right, rgba(18, 238, 110, 0.6) ,rgba(14, 154, 209, 0.9)), url('../img/main.jpg');
     height:100%;
@@ -88,7 +90,7 @@ letter-spacing: 1px;
 }
 
 
-.text
+.hero_text
 {
     position: absolute;
     top: 43%;
@@ -98,7 +100,7 @@ letter-spacing: 1px;
     text-transform: uppercase;
 }
 
-.text button
+#know_more_button
 {
     padding-top: 20px;
     padding-bottom: 20px;
@@ -112,19 +114,21 @@ letter-spacing: 1px;
 
 .main_text1
 {
-    display: block;
+    display: flex;
+    flex-direction: column;
     font-size: 43px;
 }
 
 .main_text2
 {
-    display: block;
-    font-size: 31px;
+    display: flex;
+    flex-direction: column;
+     font-size: 31px;
 }
 
 
 /*About*/
-.desc
+.description
 {
 margin-left: 25%;
 width: 50%;
@@ -198,7 +202,7 @@ width: 50%;
 
 
 
-.name img
+#myimage
 {
     object-fit: fill;
     
@@ -216,7 +220,7 @@ width: 50%;
     
 }
 
-.name img
+#myimage
 {
     width: 260px;
     height: 250px;
@@ -226,14 +230,14 @@ width: 50%;
 /*Testimonials*/
 
 
-.testimonials-img img
+.testimonials_img
 {
     width: 200px;
     height: 200px;
     border-radius: 200px;  
 }
 
-.testimonials-img img:hover
+.testimonials_img:hover
 {
     transform: scale(1.1);
     cursor: pointer;
@@ -270,7 +274,8 @@ width: 50%;
 
 .testimonials-img-div
 {
-    display: block;
+    display: flex;
+    flex-wrap: wrap; 
     position: absolute;
     justify-content: center;
     text-align: center;
@@ -323,12 +328,12 @@ width: 50%;
     flex-wrap: wrap;    
 }
 
-.projects div
+.projects_child_div
 {
    padding: 60px;
 }
 
-.project_content img
+.project_image
 {
     height: 100%;
     width: 100%;
@@ -340,12 +345,11 @@ width: 50%;
 
 
 
-.project_content img:hover
+.project_image:hover
 {
     transform: scale(1.1);
 }
 /*Contact*/
-
 .contact
 {
     clip-path: polygon(0% 10%, 100% 0%, 100% 100%, 0% 100%);
@@ -355,23 +359,14 @@ width: 50%;
     justify-content: center;
 }
 
-div.row {
-    width: 100%;
-    margin-left: 25%;
-    left: auto;
-    right: auto;
+.button_div
+{
     margin-bottom: 0;
 }
 
 .input_c
 {
     color: white;
-}
-
-.button
-{
-    width: 100%;
-    margin-left: -20%;
 }
 
 #submit
@@ -384,6 +379,13 @@ div.row {
     background-color: #00AEEF;
     border-radius: 20px;
     cursor: pointer;
+    margin-bottom: 50px;
+}
+
+form
+{
+    margin-left: 32%;
+    width: 60%;
 }
 
 /*Footer*/
@@ -411,21 +413,26 @@ div.row {
     padding-top: 45px;
 
 }
-.footersub
+.footer_content
 {
     width: 25%;
-    min-width: 70px;
+    min-width: 50px;
 }
 
 
-.footersub img
+.footer_image
 {
     width: 70px;
     height: 65px;
     
 }
 
-.footersub img:hover
+.footer_text
+{
+    margin-bottom: 50px;
+}
+
+.footer_image:hover
 {
     transform: scale(1.1);
 }
@@ -450,42 +457,45 @@ div.row {
 
 @media screen and (max-width: 449px)
 {
-    div.row
-    {
-        margin-left: 12%;
-    }
-    .button
-    {
-        margin-left: -10%;
-    }
+    
+form
+{
+    margin-left: 25%;
+    width: 70%;
+}
+.button
+{
+    margin-left: 30%;
+}
+
 }
 
 @media screen and (max-width: 300px)
+{  
+form
 {
-    div.row
-    {
-        margin-left: 5%;
-    }
-    .button
-    {
-        margin-left: 5%;
-    }
-  
-    
+    margin-left: 25%;
+    width: 70%;
+}
+.button
+{
+    margin-left: 30%;
+}
+
 }
 
 @media screen and (max-width: 600px)
 {
-    .second
+    .navbar_links
     {
         display: none;
     }
-  .first
+  .logo_box
   {
       width: 100%;
       margin-left: 30%;
   }
- 
+
 }
 
 @media screen and (min-width: 800px)
@@ -503,7 +513,8 @@ div.row {
     }
     #arrow 
     {
-        display: block;
+        display: flex;
+        flex-direction: column;
     }
 
 }
@@ -524,8 +535,9 @@ div.row {
 {
     .about
     {
-        display: block;
+        display: flex;
         width: 100%;
+        flex-direction: column;
     }
 
     .percent,.name
@@ -533,11 +545,11 @@ div.row {
         width: 100%;
     }
     
-    .second
+    .navbar_links
     {
         display: none;
     }
-  .first
+  .logo_box
   {
       width: 100%;
       margin-left: 10%;
@@ -545,9 +557,9 @@ div.row {
   
   .projects
     {
-        display: block;
-        width: 100%;     
-    
+        display: flex;
+        width: 100%;
+        flex-direction: column;
     }
 
     .project_content
@@ -560,8 +572,9 @@ div.row {
 {  
     .footer
     {
-        display: block;
+        display: flex;
         width: 100%;
+        flex-direction: column;
         margin-top: -50px;
     }
     .footeralign
@@ -575,4 +588,11 @@ div.row {
  
 }
 
+@media screen and (min-width:450px) and (max-width:599px)
+{
+ #submit
+ {
+     margin-left: 50%;
+ }
+}
 
