@@ -5,7 +5,6 @@ body {
     font-family: 'Exo';
     font-size: 16px;
     text-align: center;
-    min-width: 150px;
 }
 
 body {
@@ -248,6 +247,7 @@ body {
 
 .testimonials-img-div {
     display: flex;
+    flex-direction: column;
     flex-wrap: wrap;
     position: absolute;
     justify-content: center;
@@ -370,7 +370,7 @@ form {
 
 .footer_content {
     width: 25%;
-    min-width: 50px;
+    min-width: 70px;
 }
 
 .footer_image {
@@ -489,11 +489,5 @@ form {
     }
     .testimonials-head h2 {
         font-size: 40px;
-    }
-}
-
-@media screen and (min-width:450px) and (max-width:599px) {
-    #submit {
-        margin-left: 50%;
     }
 }
