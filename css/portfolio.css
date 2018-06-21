@@ -246,9 +246,7 @@ body {
 }
 
 .testimonials-img-div {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
+    display: block;
     position: absolute;
     justify-content: center;
     text-align: center;
