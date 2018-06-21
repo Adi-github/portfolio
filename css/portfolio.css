@@ -421,3 +421,8 @@ form {
 		font-size: 40px;
 	}
 }
+@media screen and (min-width:450px) and (max-width: 599px) {
+	#submit {
+		margin-left: 75%;
+	}
+}
