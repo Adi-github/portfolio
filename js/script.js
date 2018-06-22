@@ -15,9 +15,9 @@ $("#about_nav").click(function() {
 		scrollTop: $("#about").offset().top
 	}, 1000);
 });
-$("#contact_nav").click(function() {
+$("#follow").click(function() {
 	$('html, body').animate({
-		scrollTop: $("#contact").offset().top
+		scrollTop: $("#footer").offset().top
 	}, 1000);
 });
 $("#project").click(function() {
