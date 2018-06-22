@@ -409,6 +409,7 @@ form {
 }
 @media screen and (min-width:550px) and (max-width: 799px) {
 	.testimonials {
+		padding-top: 24rem;
 		height: 2500px;
 	}
 }
