@@ -1,8 +1,6 @@
-window.onload = function() {
-	arrowscroll()
-};
+
 window.onscroll = function() {
-	scroll(), arrowscroll()
+	scroll()
 };
 
 function scroll() {

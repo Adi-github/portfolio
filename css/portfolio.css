@@ -5,9 +5,6 @@ html, body {
 	font-size: 16px;
 	text-align: center;
 }
-body {
-	overflow-x: hidden;
-}
 /*NavBar*/
 
 #logo {
@@ -62,14 +59,15 @@ body {
 	background-position: top;
 	background-size: cover;
 	z-index: -1;
+	padding: 0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
 .hero_text {
-	position: absolute;
-	top: 43%;
-	left: 50%;
-	transform: translate(-50%, -40%);
 	color: beige;
 	text-transform: uppercase;
+	width: 50%;
 }
 #know_more_button {
 	padding-top: 20px;
@@ -174,8 +172,8 @@ body {
 	width: 50%;
 }
 #myimage {
-	width: 260px;
-	height: 250px;
+	width: 25%;
+	height: 39%;
 	border-radius: 300px;
 }
 /*Projects*/
@@ -209,6 +207,9 @@ body {
 }
 /*Contact*/
 
+.lable_form {
+	width: 50% !important;
+}
 .contact {
 	clip-path: polygon(0% 10%, 100% 0%, 100% 100%, 0% 100%);
 	padding-top: 15vh;
@@ -240,7 +241,6 @@ form {
 /*Footer*/
 
 .footer {
-	position: relative;
 	display: flex;
 	flex-wrap: wrap;
 	width: 100%;
@@ -250,9 +250,7 @@ form {
 	color: white;
 }
 .footeralign {
-	position: absolute;
-	top: 40%;
-	width: 50%;
+	margin: auto;
 	display: flex;
 	flex-wrap: wrap;
 	text-align: center;
@@ -268,6 +266,7 @@ form {
 }
 .footer_text {
 	margin-bottom: 50px;
+	margin: auto;
 }
 .footer_image:hover {
 	transform: scale(1.1);
@@ -282,8 +281,8 @@ form {
 	z-index: 10;
 }
 .testimonials_img {
-	width: 200px;
-	height: 200px;
+	width: 50%;
+	height: 50%;
 	border-radius: 200px;
 }
 .testimonials_img:hover {
@@ -294,7 +293,9 @@ form {
 	min-width: 150px;
 }
 .testimonials {
-	position: relative;
+	position: flex;
+	justify-content: center;
+	align-items: center;
 	color: beige;
 	text-transform: uppercase;
 	background-image: linear-gradient(to right bottom, rgba(18, 238, 110, 0.6), rgba(14, 154, 209, 0.9));
@@ -311,26 +312,11 @@ form {
 .testimonials-img-div {
 	display: flex;
 	flex-wrap: wrap;
-	position: absolute;
 	justify-content: center;
 	text-align: center;
 	width: 100%;
 }
 .testimonials-img {
-	width: 100%;
-}
-.videocontainer {
-	clip-path: polygon(0% 10%, 100% 0%, 100% 100%, 0% 100%);
-	position: absolute;
-	height: 100%;
-	width: 100%;
-	top: 0;
-	opacity: 0.5;
-	z-index: -3;
-}
-.video {
-	object-fit: cover;
-	height: 100%;
 	width: 100%;
 }
 /*media queries*/
@@ -354,12 +340,8 @@ form {
 	}
 }
 @media screen and (max-width: 600px) {
-	.navbar_links {
+	#navbar {
 		display: none;
-	}
-	.logo_box {
-		width: 100%;
-		margin-left: 30%;
 	}
 }
 @media screen and (min-width: 800px) {
@@ -394,12 +376,17 @@ form {
 	.percent, .name {
 		width: 100%;
 	}
-	.navbar_links {
-		display: none;
+	.projects_child_div {
+		padding: 20px;
 	}
-	.logo_box {
-		width: 100%;
-		margin-left: 10%;
+	.main_text1 {
+		font-size: 100%;
+	}
+	.main_text2 {
+		font-size: 100%;
+	}
+	#navbar {
+		display: none;
 	}
 	.projects {
 		display: flex;
@@ -411,17 +398,8 @@ form {
 	}
 }
 @media screen and (max-width: 550px) {
-	.footer {
-		display: flex;
-		width: 100%;
-		flex-direction: column;
-		margin-top: -50px;
-	}
-	.footeralign {
-		width: 100%;
-	}
-	.testimonials-head h2 {
-		font-size: 40px;
+	.p_h2 {
+		font-size: 150%;
 	}
 }
 @media screen and (min-width:450px) and (max-width: 599px) {

@@ -10,7 +10,7 @@
 	<link href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css" rel="stylesheet">
 	<link href="css/portfolio.css" rel="stylesheet">
 	<link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css" rel="stylesheet">
-	<script src="//cdnjs.cloudflare.com/ajax/libs/wow/0.1.12/wow.min.js">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/wow/0.1.12/wow.min.js">
 	</script>
 	<title>PortFolio</title>
 </head>
@@ -33,7 +33,7 @@
 			<p><button id="know_more_button">Know More</button></p>
 		</div>
 	</div><!--About Section-->
-	<h1 id="about">About</h1>
+	<h1 class="p_h2" id="about">About</h1>
 	<div class="about" data-wow-delay="0.1s">
 		<div class="name">
 			<img alt="photo" id="myimage" src="img/about-main.jpg">
@@ -41,7 +41,7 @@
 			<p class="description">I'm the Web Developer Based in Jaipur,India. I have passion for Creating dynamic user experiences on web. I am a Coffee Lover</p>
 		</div>
 		<div class="percent">
-			<h2>Skills</h2>
+			<h2 class="p_h2">Skills</h2>
 			<div class="skills_container">
 				<div class="skills html">
 					<p>HTML</p>
@@ -65,11 +65,8 @@
 		</div>
 	</div><!--Testimonials-->
 	<div class="testimonials">
-		<div class="videocontainer">
-			<video autoplay="" class="video" loop=""><source src="video/video.mp4" type="video/mp4"> <source src="video/video.webm" type="video/webm"></video>
-		</div>
 		<div class="testimonials-head">
-			<h2>Testimonials</h2>
+			<h2 class="p_h2">Testimonials</h2>
 		</div>
 		<div class="testimonials-img-div">
 			<div class="testimonials-img">
@@ -88,27 +85,27 @@
 	</div><!--Projects-->
 	<div id="projects">
 		<div class="projects_child_div">
-			<h2 class="wow fadeIn" data-wow-delay="0.1s">PROJECTS</h2>
+			<h2 class="wow fadeIn p_h2" data-wow-delay="0.1s">PROJECTS</h2>
 		</div>
 		<div class="projects wow fadeIn projects_child_div" data-wow-delay="0.3s">
 			<div class="project_content projects_child_div">
-				<a href="https://adi-github.github.io/task-master/"><img alt="project" class="project_image" src="img/project1.png"></a>
+				<a href="https://adi-github.github.io/task-master/" target="_blank"><img alt="project" class="project_image" src="img/project1.png"></a>
 				<p>TaskMaster</p>
 			</div>
 			<div class="project_content projects_child_div">
-				<a href="https://adi-github.github.io/webpage/"><img alt="project" class="project_image" src="img/project2.png"></a>
+				<a href="https://adi-github.github.io/webpage/" target="_blank"><img alt="project" class="project_image" src="img/project2.png"></a>
 				<p>Psd To Html</p>
 			</div>
 			<div class="project_content projects_child_div">
-				<a href="https://codepen.io/adirocks/full/eVKrVZ/"><img alt="project" class="project_image" src="img/project3.png"></a>
+				<a href="https://codepen.io/adirocks/full/eVKrVZ/" target="_blank"><img alt="project" class="project_image" src="img/project3.png"></a>
 				<p>Animal Card</p>
 			</div>
 			<div class="project_content projects_child_div">
-				<a href="https://codepen.io/adirocks/full/MQXgEO/"><img alt="project" class="project_image" src="img/project4.png"></a>
+				<a href="https://codepen.io/adirocks/full/MQXgEO/" target="_blank"><img alt="project" class="project_image" src="img/project4.png"></a>
 				<p>PixelArt Maker</p>
 			</div>
 			<div class="project_content projects_child_div">
-				<a href="https://codepen.io/adirocks/full/OQEZZd/"><img alt="project" class="project_image" src="img/project5.png"></a>
+				<a href="https://codepen.io/adirocks/full/OQEZZd/" target="_blank"><img alt="project" class="project_image" src="img/project5.png"></a>
 				<p>Article</p>
 			</div>
 			<div class="project_content projects_child_div">
@@ -117,38 +114,11 @@
 			</div>
 		</div>
 	</div><!--Contact Section-->
-	<div class="contact-parent" id="contact">
-		<div class="contact">
-			<h2>Contact Us</h2>
-			<form action="mailto:adityashrma07@gmail.com" autocomplete="off" class="col m6" method="post">
-				<div class="row">
-					<div class="input-field col m6">
-						<i class="material-icons prefix">account_circle</i> <input class="input_c" id="icon_prefix" required="" type="text"> <label for="icon_prefix">First Name</label>
-					</div>
-				</div>
-				<div class="row">
-					<div class="input-field col m6">
-						<i class="material-icons prefix">mail</i> <input class="input_c" id="email" required="" type="email"> <label for="icon_prefix">Email</label>
-					</div>
-				</div>
-				<div class="row">
-					<div class="input-field col m6">
-						<i class="material-icons prefix">mode_edit</i> 
-						<textarea class="materialize-textarea input_c" data-length="250" id="icon-prefix" required=""></textarea> <label for="icon-prefix">Message</label>
-					</div>
-				</div>
-				<div class="row button_div">
-					<div class="input-field col m6 button">
-						<input id="submit" type="submit" value="Submit">
-					</div>
-				</div>
-			</form>
-		</div>
-	</div><!--Footer-->
+	<!--Footer-->
 	<footer>
 		<div class="footer">
 			<div class="footer_text">
-				<h1>Follow Me</h1>
+				<h1 class="p_h2">Follow Me</h1>
 			</div>
 			<div class="footeralign">
 				<div class="footer_content">
@@ -167,14 +137,14 @@
 		</div>
 		<div id="arrow">
 			<a href="#top"><img alt="arrow" src="./img/arrow.png"></a>
-		</div>
-	</footer><!--Arrow-->
-	<script src="js/script.js">
-	</script> 
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js">
-	</script> 
-	<script>
-	                new WOW().init();
-	</script>
+		</div><!--Arrow-->
+		<script src="js/script.js">
+		</script> 
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js">
+		</script> 
+		<script>
+		          new WOW().init();
+		</script> 
+	</footer>
 </body>
 </html>
